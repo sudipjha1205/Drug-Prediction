@@ -17,7 +17,7 @@ df.head()         //shows top 5 rows
 df.describe()       //describes the dataframe
 
 //converting the dataset into dependent and independent variable
-cdf = df[['Age','Sex','BP','Cholesterol','Na_to_K']]      //independent variable
+X = df[['Age','Sex','BP','Cholesterol','Na_to_K']].values      //independent variable
 y = df['Drug']        //dependent variable
 
 
